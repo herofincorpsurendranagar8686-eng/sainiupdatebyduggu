@@ -3,18 +3,18 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "15156658"))
-API_HASH = environ.get("API_HASH", "8e44aac647fcebd00eb62ed043184718")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8404010513:AAGP9zhg3sR2-jL_Bz-B7plkAuaBQ-Wqt14")
+API_ID = int(environ.get("API_ID", "29141829"))
+API_HASH = environ.get("API_HASH", "25020d00fbcfd406fc9979d24d761bff")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8201565286:AAFUe4J2GsmcPd1Jp4U6l2hJiEHBUOoo_CE")
 
-OWNER = int(environ.get("OWNER", "8276519866"))
+OWNER = int(environ.get("OWNER", "5323404314"))
 CREDIT = environ.get("CREDIT", "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8276519866').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '5323404314').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '8276519866').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '5323404314').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
@@ -23,5 +23,6 @@ if int(OWNER) not in AUTH_USERS:
 api_url = "http://master-api-v3.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
 
